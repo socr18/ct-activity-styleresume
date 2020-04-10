@@ -1,0 +1,79 @@
+body {
+    content:"";
+    background: url('https://images.pexels.com/photos/459654/pexels-photo-459654.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name h1 {
+    color: royalblue;
+}
+
+#cv {
+    padding: 1% 10%;
+    float: left;
+    position: relative;
+}
+
+#headshot {
+    background: white;
+    float: left;
+    width: 20%;
+    height: 128px;
+}
+
+#name {
+    background: white;
+    float: left;
+    width: 80%;
+    height: 128px;
+}
+
+#contactDetails {
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+    text-align: center;
+}
+
+#contactDetails ul {
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+
+#contactDetails ul li {
+    float: left;
+    padding: 5px 10px;
+}
+
+.sectionTitle {
+    background: black;
+    opacity: 0.4;
+    color: white;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.sectionTitle h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.sectionContent {
+    background: rgb(255,255,255,.7);
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.sectionContent p, .sectionContent article {
+    padding: 0 10px;
+}
